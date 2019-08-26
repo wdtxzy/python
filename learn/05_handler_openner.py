@@ -6,7 +6,7 @@ def handler_openner():
     #安全 套接层 ssl第三方的CA数字证书
     #http80端口个 和 https 443端口
 
-    url = "https://www.baidu.com"
+    url = "http://www.baidu.com"
 
     #创建自己的处理器
     handler = urllib.request.HTTPHandler
